@@ -64,8 +64,11 @@ input{
     margin: 16px auto;
     justify-content: center;
     display: flex;
+    flex-direction: column;
 }
 .todo{
+    margin: 8px auto ;
+    margin-bottom: 16px;
     justify-content: space-between;
     display: flex;
     width: 546px;
