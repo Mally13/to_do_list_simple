@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #2161cb;
+    margin: 0;
+}
+.container
+{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header{
+    margin-top: 40px;
+    background: #FFFFFF;
+    color: #2161cb;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+}
+.centered_div{
+    margin: 40px auto;
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 600px;
+    height: 500px;
+    padding: 16px;
+    justify-content: center;
+}
+.inline_div{
+    width: 100%;
+    margin: 16px auto;
+    justify-content: center;
+    display: flex;
+    height: 100px;
+}
+input{
+    outline: none;
+    border: 2px solid #2B6BE8;
+}
+#to_do_item_input{
+    width: 440px;
+    height: 64px;
+    border-radius: 8px;
+    padding: 16px;
+}
+#to_do_submit{
+    margin-left: 10px;
+    border-radius: 8px;
+    background: #2B6BE8;
+    width: 96px;
+    height: 64px;
+    color:#FFFFFF;
+    font-weight: 400;
+}
+.todos{
+    width: 100%;
+    margin: 16px auto;
+    justify-content: center;
+    display: flex;
+}
+.todo{
+    justify-content: space-between;
+    display: flex;
+    width: 546px;
+    height: 64px;
+    border-radius: 6px;
+    border: 1px solid #EDF2FD;
+    flex-wrap: wrap;
+    align-content: center;
+    background: #EDF2FD;
+    padding: 8px;
+}
+.todo-text{
+    width: 456px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.del{
+    background: #1D1BA6;
+    align-items: center;
+    display: flex;
+    padding: 8px;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+}
